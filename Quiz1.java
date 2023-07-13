@@ -35,4 +35,8 @@ class Student {
     public void SetAddmission(int year) {
         this.addmissionYear = year;
     }
+
+    public void SetGPA(int newGPA) {
+        this.gpa = newGPA;
+    }
 }
